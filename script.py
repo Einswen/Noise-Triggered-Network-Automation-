@@ -30,7 +30,7 @@ async def browser_automation():
 
             # 2. Enter password and login
             password_input = page.locator('input[data-v-2681164d][type="password"]')
-            await password_input.fill("217666666")
+            await password_input.fill("xxxxxx")#路由器后台密码
 
             login_button = page.locator('button.loginbtn[data-v-2681164d]')
             await login_button.click()
